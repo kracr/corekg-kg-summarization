@@ -1,2 +1,62 @@
-# corekg-kg-summarization
-A KG summarization technique based on Coresets.
+OVERVIEW
+
+COREKG is a coreset-based framework for personalized knowledge graph summarization.
+It uses sensitivity-based importance sampling to create compact, user-centric knowledge graph (KG) summaries that preserve query-relevant information with provable guarantees.
+
+  
+SPARQL Query
+
+A structured query language used to retrieve and manipulate data stored in Resource Description Framework (RDF) format within knowledge graphs.
+
+Example query:
+
+SELECT ?person ?organization
+WHERE {
+
+?person [http://schema.org/worksFor](http://schema.org/worksFor) ?organization .
+
+?organization [http://schema.org/founder](http://schema.org/founder) ?founder .
+}
+
+  
+DEPENDENCIES AND INSTALLATION
+
+Required Python libraries:
+rdflib
+pandas
+numpy
+
+Install using pip:
+
+```
+pip install libraries
+```
+
+EVALUATION METRICS
+
+F1 Score – Accuracy of answers compared to the full knowledge graph.
+
+Coverage – Proportion of query-relevant triples retained.
+
+DATASETS AND QUERY WORKLOADS:
+
+WatDiv Dataset – [https://dsg.uwaterloo.ca/watdiv/](https://dsg.uwaterloo.ca/watdiv/)
+
+WatDiv Query Generator – [https://github.com/dsg-uwaterloo/watdiv](https://github.com/dsg-uwaterloo/watdiv)
+
+DBpedia Dataset – [https://databus.dbpedia.org/dbpedia/collections/latest-core](https://databus.dbpedia.org/dbpedia/collections/latest-core) 
+
+DBpedia Query Dataset (LSQ) – [http://lsq.aksw.org/](http://lsq.aksw.org/) 
+
+LSQ-Clean Toolkit – [https://github.com/sparqeology/lsq-clean](https://github.com/sparqeology/lsq-clean) 
+
+Freebase Dataset – [https://developers.google.com/freebase](https://developers.google.com/freebase)
+
+Freebase Query Dataset (WebQSP) – [https://github.com/SUperEdge/webqsp](https://github.com/SUperEdge/webqsp)
+
+SOFTWARE AND TOOLS USED
+
+Apache Jena Fuseki – Used as a SPARQL endpoint for query execution. Website: [https://jena.apache.org/documentation/fuseki2/](https://jena.apache.org/documentation/fuseki2/)
+
+LSQ-Clean Toolkit – For preprocessing SPARQL logs and creating cleaned query workloads.
+Website: [https://github.com/sparqeology/lsq-clean](https://github.com/sparqeology/lsq-clean)
