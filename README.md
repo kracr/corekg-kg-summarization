@@ -52,7 +52,7 @@ LSQ-Clean Toolkit – [https://github.com/sparqeology/lsq-clean](https://github.
 
 Freebase Dataset – [https://developers.google.com/freebase](https://developers.google.com/freebase)
 
-Freebase Query Dataset (WebQSP) – [https://github.com/SUperEdge/webqsp](https://github.com/SUperEdge/webqsp)
+Freebase Query Dataset (WebQSP) – [https://aclanthology.org/P16-2033.pdf](https://aclanthology.org/P16-2033.pdf)
 
 SOFTWARE AND TOOLS USED
 
