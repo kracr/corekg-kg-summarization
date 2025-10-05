@@ -1,4 +1,4 @@
-OVERVIEW
+# **OVERVIEW**
 
 COREKG is a coreset-based framework for personalized knowledge graph summarization.
 It uses sensitivity-based importance sampling to create compact, user-centric knowledge graph (KG) summaries that preserve query-relevant information with provable guarantees.
@@ -19,7 +19,7 @@ WHERE {
 }
 
   
-DEPENDENCIES AND INSTALLATION
+# **DEPENDENCIES AND INSTALLATION**
 
 Required Python libraries:
 rdflib
@@ -32,13 +32,13 @@ Install using pip:
 pip install libraries
 ```
 
-EVALUATION METRICS
+# **EVALUATION METRICS**
 
 F1 Score – Accuracy of answers compared to the full knowledge graph.
 
 Coverage – Proportion of query-relevant triples retained.
 
-DATASETS AND QUERY WORKLOADS:
+# **DATASETS AND QUERY WORKLOADS:**
 
 WatDiv Dataset – [https://dsg.uwaterloo.ca/watdiv/](https://dsg.uwaterloo.ca/watdiv/)
 
@@ -54,7 +54,7 @@ Freebase Dataset – [https://developers.google.com/freebase](https://developers
 
 Freebase Query Dataset (WebQSP) – [https://aclanthology.org/P16-2033.pdf](https://aclanthology.org/P16-2033.pdf)
 
-SOFTWARE AND TOOLS USED
+# **SOFTWARE AND TOOLS USED**
 
 Apache Jena Fuseki – Used as a SPARQL endpoint for query execution. Website: [https://jena.apache.org/documentation/fuseki2/](https://jena.apache.org/documentation/fuseki2/)
 
