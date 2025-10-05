@@ -22,14 +22,19 @@ WHERE {
 # **DEPENDENCIES AND INSTALLATION**
 
 Required Python libraries:
-rdflib
-pandas
+
 numpy
+
+tqdm
+
+rdflib
+
+SPARQLWrapper
 
 Install using pip:
 
 ```
-pip install libraries
+pip install numpy tqdm rdflib SPARQLWrapper
 ```
 
 # **EVALUATION METRICS**
