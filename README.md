@@ -45,9 +45,9 @@ Coverage – Proportion of query-relevant triples retained.
 
 # **DATASETS AND QUERY WORKLOADS:**
 
-WatDiv Dataset – [https://dsg.uwaterloo.ca/watdiv/](https://dsg.uwaterloo.ca/watdiv/)
+Wikidata Dataset – [https://dumps.wikimedia.org/wikidatawiki/entities/](https://dumps.wikimedia.org/wikidatawiki/entities/)
 
-WatDiv Query Generator – [https://github.com/dsg-uwaterloo/watdiv](https://github.com/dsg-uwaterloo/watdiv)
+Wikidata Query Dataset – [https://huggingface.co/datasets/mohnish/lc_quad/blob/main/data.zip](https://huggingface.co/datasets/mohnish/lc_quad/blob/main/data.zip)
 
 DBpedia Dataset – [https://databus.dbpedia.org/dbpedia/collections/latest-core](https://databus.dbpedia.org/dbpedia/collections/latest-core) 
 
