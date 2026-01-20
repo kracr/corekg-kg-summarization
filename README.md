@@ -47,7 +47,7 @@ Coverage – Proportion of query-relevant triples retained.
 
 Wikidata Dataset – [https://dumps.wikimedia.org/wikidatawiki/entities/](https://dumps.wikimedia.org/wikidatawiki/entities/)
 
-Wikidata Query Dataset – [https://huggingface.co/datasets/mohnish/lc_quad/blob/main/data.zip](https://huggingface.co/datasets/mohnish/lc_quad/blob/main/data.zip)
+Wikidata Query Dataset (LC-QuAD 2.0) – [https://huggingface.co/datasets/mohnish/lc_quad/blob/main/data.zip](https://huggingface.co/datasets/mohnish/lc_quad/blob/main/data.zip)
 
 DBpedia Dataset – [https://databus.dbpedia.org/dbpedia/collections/latest-core](https://databus.dbpedia.org/dbpedia/collections/latest-core) 
 
