@@ -2,7 +2,7 @@
 Evaluation metrics for COREKG summaries.
 
 - compute_coverage: structural coverage per paper's definition (nodes + edges)
-- compute_f1_score: computes F1 (with precision=1 assumption from the paper, so F1 == recall)
+
 - utility helpers to extract nodes/edges from triples and query patterns
 """
 
@@ -70,11 +70,6 @@ def compute_f1_score(
 ) -> float:
     """
     Compute F1 across queries.
-    The paper describes an evaluation where retrieved answers from the summary are always present in the original KG (TP=answers_in_both),
-    FP=0, so F1 reduces to recall (if this holds). We still implement general F1:
-      precision = TP / (TP + FP)
-      recall = TP / (TP + FN)
-      F1 = 2 * precision * recall / (precision + recall)
 
     query_to_full_answers: map q -> set of ground-truth answer tuples (e.g., result rows)
     query_to_summary_answers: map q -> set of summary-produced answer tuples
@@ -102,3 +97,4 @@ def compute_f1_score(
     avg_f1 = sum(f1s) / max(1, n)
     logger.info(f"Computed F1 (macro-average): {avg_f1:.4f}")
     return avg_f1
+
