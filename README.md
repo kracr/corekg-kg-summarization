@@ -1,5 +1,5 @@
 # **OVERVIEW**
-
+ 
 COREKG is a coreset-based framework for personalized knowledge graph summarization.
 It uses sensitivity-based importance sampling to create compact, user-centric knowledge graph (KG) summaries that preserve query-relevant information with provable guarantees.
 
